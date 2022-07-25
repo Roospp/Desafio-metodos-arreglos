@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <title>Desafio metodos de arreglos</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Todo List</h1>
+                <hr/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <label for="txtTarea">Nueva Tarea:</label>
+            </div>
+            <div class="col-11">
+                <input type="text" id="txtTarea" class="form-control" />
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-success" id="btnAgregarTarea">Agregar</button>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-7">
+                <p>Total: <span class="total">0</span></p>
+                <p>Realizadas: <span class="realizadas">0</span></p>
+            </div>
+            <div class="col-5">
+                <table class="table" id="grillaTareas">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Tarea</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
